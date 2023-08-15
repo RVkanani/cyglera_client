@@ -1,0 +1,27 @@
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .video-list {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .video-item {
+    flex: 0 0 auto;
+    margin-right: 15px;
+    text-align: center;
+  }
+  
+  .video-item img {
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .video-item p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
